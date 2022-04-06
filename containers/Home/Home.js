@@ -1,8 +1,5 @@
 import { useTranslation } from 'next-i18next';
 
-import slightlySmilingEmoji from '../../assets/slightly-smiling-emoji-meme.jpg';
-import greatPower from '../../assets/with-great-power-comes-great-responsibility.gif';
-import slackThreads from '../../assets/slack-reply-in-thread-meme.jpg';
 import Image from '../../components/Image';
 
 import * as S from './styles';
@@ -21,7 +18,7 @@ export default function Home() {
             <div>{t('ruleOne')}</div>
             <Image
               alt="Slightly smiling emoji meme"
-              src={slightlySmilingEmoji.src}
+              src="/images/slightly-smiling-emoji-meme.jpg"
             />
           </S.StyledLi>
 
@@ -30,14 +27,17 @@ export default function Home() {
 
             <Image
               alt="with great power comes great responsibility gif"
-              src={greatPower.src}
+              src="/images/with-great-power-comes-great-responsibility.gif"
             />
           </S.StyledLi>
 
           <S.StyledLi>
             <div>{t('ruleThree')}</div>
 
-            <Image alt="slack reply in thread meme" src={slackThreads.src} />
+            <Image
+              alt="slack reply in thread meme"
+              src="images/slack-reply-in-thread-meme.jpg"
+            />
           </S.StyledLi>
 
           <S.StyledLi>
