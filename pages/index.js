@@ -27,4 +27,4 @@ export async function getStaticProps({ locale }) {
   };
 }
 
-export const config = { amp: true };
+// export const config = { amp: true };
