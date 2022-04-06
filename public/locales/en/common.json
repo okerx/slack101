@@ -1,0 +1,10 @@
+{
+  "title": "Welcome To SLACK 101",
+  "description": "Set of rules for using Slack or any corporate communication tool to make your life and your colleagues' easier. 😃",
+  "ruleOne": "DON'T ever send the slightly smiling emoji \uD83D\uDE42 (aka the serial killer emoji) You may not know that but it freaks people out.",
+  "ruleTwo": "DON'T disturb your colleagues just to get attention. Before you use @channel or @here, etc., Ask yourself a question, does really everyone in the channel needs to be disturbed by your message?",
+  "ruleThree": "ALWAYS reply in threads! That's what they are made for.",
+  "ruleFour": "Don't just say Hi in DMs. there's a whole website about this",
+  "isOpenSource": "This website is Open Source.",
+  "githubLink": "You can edit the content of this page or translate it on Github."
+}
